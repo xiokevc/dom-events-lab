@@ -57,3 +57,30 @@ body {
   border-radius: 4px;
   border: 2px solid rgb(255, 60, 60);
 }
+
+.button:hover {
+  background-color: #ff3359;
+}
+
+.button:active {
+  background-color: #d00234;
+  transform: scale(0.95);
+}
+
+.button.operator {
+  background-color: #007bff;
+  border-color: #0056b3;
+}
+
+.button.operator:hover {
+  background-color: #3399ff;
+}
+
+.button.equals {
+  background-color: #28a745;
+  border-color: #1c7c31;
+}
+
+.button.equals:hover {
+  background-color: #3ddc5b;
+}
