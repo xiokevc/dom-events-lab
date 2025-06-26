@@ -54,8 +54,8 @@ function handleOperator(op) {
 function computeResult() {
   if (operator === null || currentInput === '' || previousInput === '') return;
 
-  const num1 = parseFloat(previousInput);
-  const num2 = parseFloat(currentInput);
+  const num1 = Number(previousInput);
+  const num2 = Number(currentInput);
   let result;
 
   switch (operator) {
